@@ -1,0 +1,26 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 24px;
+    }
+
+    &__main{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 24px;
+        overflow: hidden;
+    }
+}
+
+.icon{
+    width: 32px;
+}
